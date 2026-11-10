@@ -150,7 +150,7 @@ export const invitationData: InvitationData = {
       motherName: "Lady Eleanor Beatrice Vance",
       instagramHandle: "@aurelia.vance",
       bio: "A soul drawn to classical literature, antique parchment, and timeless artistry. She found in Christian the quiet harbor and poetic heart she had always yearned for.",
-      photo: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1200&auto=format&fit=crop",
+      photo: "/images/bride.jpg",
     },
     groom: {
       fullName: "Lord Christian Alexander Sterling",

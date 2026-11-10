@@ -59,7 +59,7 @@ export const Couple: React.FC = () => {
                   src={bride.photo}
                   fallbackSrc="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1200&auto=format&fit=crop"
                   alt={bride.fullName}
-                  className="w-full h-full object-cover object-center filter grayscale-[15%] contrast-[1.08] group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover object-top contrast-[1.04] group-hover:scale-105 transition-all duration-700"
                   containerClassName="w-full h-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian/70 via-transparent to-transparent pointer-events-none" />
@@ -126,7 +126,7 @@ export const Couple: React.FC = () => {
                   src={groom.photo}
                   fallbackSrc="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1200&auto=format&fit=crop"
                   alt={groom.fullName}
-                  className="w-full h-full object-cover object-center filter grayscale-[15%] contrast-[1.08] group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover object-top contrast-[1.04] group-hover:scale-105 transition-all duration-700"
                   containerClassName="w-full h-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian/70 via-transparent to-transparent pointer-events-none" />
